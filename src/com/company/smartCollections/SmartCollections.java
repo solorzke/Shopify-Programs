@@ -1,6 +1,6 @@
 package com.company.smartCollections;
-
-import org.json.JSONObject;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import java.io.*;
@@ -11,10 +11,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 public class SmartCollections {
-    private static final String collections_path = "/Users/solorzke/Documents/Developer/Shopify-Programs/src/com/company/smartCollections/collections.json";
-    private static final String test_path = "/Users/solorzke/Documents/Developer/Shopify-Programs/src/com/company/smartCollections/all-collections.json";
-
-    private static final String inStockCollectionsPath = "/Users/solorzke/Documents/Developer/Shopify-Programs/src/com/company/smartCollections/in-stock-collections.json";
+    private static final String collections_path = "/Users/solorzke/Documents/Developer/Shopify-Programs/src/com/company/smartCollections/all-collections.json";
     private static final String domainKey = "domain";
     private static final String tokenKey = "token";
     private static final String shopifyAccessTokenKey = "X-Shopify-Access-Token";
@@ -41,31 +38,22 @@ public class SmartCollections {
 
     private static void createSmartCollections() {
         Map<String, String> responses = askInfo();
-        JSONObject json = loadJSON(test_path);
+        JSONArray json = loadJSON(collections_path);
         String store = createShopifyStoreEndpoint(responses.get(domainKey));
         String token = responses.get(tokenKey);
 
-        Iterator <String> iterator = json.keySet().iterator();
-        while (iterator.hasNext()) {
-//            String key = iterator.next();
-//            JSONObject collection = (JSONObject) json.get(key);
-//            String stringified = collection.toJSONString();
-//            System.out.println("> Please wait... Creating smart collections for " + responses.get(domainKey));
-//            sendData(stringified, token, store);
-            System.out.println(iterator.next());
+        for(int i = 0; i < json.size(); i++) {
+            JSONObject collection = (JSONObject) json.get(i);
+            String stringified = collection.toJSONString();
+            System.out.println("> Please wait... Creating smart collections for " + responses.get(domainKey));
+            sendData(stringified, token, store);
         }
-
-//        for(String obj : createInStockCollectonsList()) {
-//            System.out.println("> Please wait... Creating in stock smart collections for " + responses.get(domainKey));
-//            sendData(obj, token, store);
-//        }
 
         System.out.println("> Shutting Down....");
     }
 
     private static void createInStockCollections() {
         Map<String, String> responses = askInfo();
-        JSONObject json = loadJSON(inStockCollectionsPath);
         String store = createShopifyStoreEndpoint(responses.get(domainKey));
         String token = responses.get(tokenKey);
 
@@ -99,7 +87,7 @@ public class SmartCollections {
         return "https://" + domain + ".myshopify.com/admin/api/2021-07/smart_collections.json";
     }
 
-    private static JSONObject loadJSON(String path) {
+    private static JSONArray loadJSON(String path) {
         JSONParser parser = new JSONParser();
         JSONObject jsonObject = new JSONObject();
         try {
@@ -110,7 +98,7 @@ public class SmartCollections {
         } catch (ParseException e) {
             e.printStackTrace();
         }
-        return jsonObject;
+        return (JSONArray) jsonObject.get("collections");
     }
 
     private static Map<String, String> getHeaders(String token) {
