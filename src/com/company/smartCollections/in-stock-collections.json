@@ -1,0 +1,203 @@
+{
+  "living-room-set": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Living Room Set In Stock",
+      "rules": [
+        {"column" : "type", "relation": "equals", "condition": "Living Room Set"},
+        {"column" : "tag", "relation": "equals", "condition": "availability_in-stock"}
+      ]
+    }
+  },
+
+  "living-room": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Living Room",
+      "rules": [
+        {"column" : "type", "relation": "equals", "condition": "Living Room Set"},
+        {"column" : "type", "relation": "equals", "condition": "Sofa"},
+        {"column" : "type", "relation": "equals", "condition": "Loveseat"},
+        {"column" : "type", "relation": "equals", "condition": "Sectional"},
+        {"column" : "type", "relation": "equals", "condition": "Sleeper"},
+        {"column" : "type", "relation": "equals", "condition": "Recliner"},
+        {"column" : "type", "relation": "equals", "condition": "Ottoman"},
+        {"column" : "type", "relation": "equals", "condition": "Sofa Table"},
+        {"column" : "type", "relation": "equals", "condition": "End Table"},
+        {"column" : "type", "relation": "equals", "condition": "Cocktail Table"}
+      ]
+    }
+  },
+
+  "sofa": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Sofa In Stock",
+      "rules": [
+        {"column" : "type", "relation": "equals", "condition": "Sofa"},
+        {"column" : "tag", "relation": "equals", "condition": "availability_in-stock"}
+      ]
+    }
+  },
+
+  "loveseat": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Loveseat In Stock",
+      "rules": [
+        {"column" : "type", "relation": "equals", "condition": "Loveseat"},
+        {"column" : "tag", "relation": "equals", "condition": "availability_in-stock"}
+      ]
+    }
+  },
+
+  "sectional": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Sectional In Stock",
+      "rules": [
+        {"column" : "type", "relation": "equals", "condition": "Sectional"},
+        {"column" : "tag", "relation": "equals", "condition": "availability_in-stock"}
+      ]
+    }
+  },
+
+  "dining-room": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Dining Room",
+      "rules": [
+        {"column" : "type", "relation": "equals", "condition": "Dining Room Set"},
+        {"column" : "type", "relation": "equals", "condition": "Dining Table"},
+        {"column" : "type", "relation": "equals", "condition": "Dining Chair"},
+        {"column" : "type", "relation": "equals", "condition": "Dining Chair Set"},
+        {"column" : "type", "relation": "equals", "condition": "Barstool"},
+        {"column" : "type", "relation": "equals", "condition": "Barstool Set"},
+        {"column" : "type", "relation": "equals", "condition": "Barstools"},
+        {"column" : "type", "relation": "equals", "condition": "Buffet"},
+        {"column" : "type", "relation": "equals", "condition": "Server"}
+      ]
+    }
+  },
+
+  "mattress": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Mattress",
+      "rules": [
+        {"column" : "type", "relation": "equals", "condition": "Mattress"},
+        {"column" : "type", "relation": "equals", "condition": "Hybrid Mattress"},
+        {"column" : "type", "relation": "equals", "condition": "Innerspring Mattress"},
+        {"column" : "type", "relation": "equals", "condition": "Memory Foam Mattress"},
+        {"column" : "type", "relation": "equals", "condition": "Mattress & Adjustable Base"},
+        {"column" : "type", "relation": "equals", "condition": "Adjustable Base"},
+        {"column" : "type", "relation": "equals", "condition": "Foundation"}
+      ]
+    }
+  },
+
+  "home-office": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Home Office",
+      "rules": [
+        {"column" : "type", "relation": "equals", "condition": "Home Office Set"},
+        {"column" : "type", "relation": "equals", "condition": "Desk"},
+        {"column" : "type", "relation": "equals", "condition": "Desk Chair"},
+        {"column" : "type", "relation": "equals", "condition": "Bookcase"},
+        {"column" : "type", "relation": "equals", "condition": "File Cabinet"}
+      ]
+    }
+  },
+
+  "entertainment": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Entertainment",
+      "rules": [
+        {"column" : "type", "relation": "equals", "condition": "Entertainment Center"},
+        {"column" : "type", "relation": "equals", "condition": "TV Stand"},
+        {"column" : "type", "relation": "equals", "condition": "Fireplace"}
+      ]
+    }
+  },
+
+  "accessories": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Accessories",
+      "rules": [
+        {"column" : "type", "relation": "equals", "condition": "Wall Art"},
+        {"column" : "type", "relation": "equals", "condition": "Wall Decor"},
+        {"column" : "type", "relation": "equals", "condition": "Throw"},
+        {"column" : "type", "relation": "equals", "condition": "Basket"},
+        {"column" : "type", "relation": "equals", "condition": "Pouf"},
+        {"column" : "type", "relation": "equals", "condition": "Candle Holder"},
+        {"column" : "type", "relation": "equals", "condition": "Sculpture"},
+        {"column" : "type", "relation": "equals", "condition": "Lamp"},
+        {"column" : "title", "relation": "contains", "condition": "Lamp"}
+      ]
+    }
+  },
+
+  "outdoor": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Outdoor",
+      "rules": [
+        {"column" : "title", "relation": "contains", "condition": "Outdoor"}
+      ]
+    }
+  },
+
+  "hybrid-mattress": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Hybrid Mattress",
+      "rules": [
+        {"column": "tag", "relation": "equals", "condition": "Mattress Type_Hybrid Mattress"}
+      ]
+    }
+  },
+
+  "innerspring-mattress": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Innerspring Mattress",
+      "rules": [
+        {"column": "tag", "relation": "equals", "condition": "Mattress Type_Innerspring Mattress"}
+      ]
+    }
+  },
+
+  "memory-foam-mattress": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Memory Foam Mattress",
+      "rules": [
+        {"column": "tag", "relation": "equals", "condition": "Mattress Type_Memory Foam Mattress"}
+      ]
+    }
+  },
+
+  "lamp": {
+    "smart_collection": {
+      "disjunctive": "true",
+      "title": "Lamp",
+      "rules": [
+        {"column" : "title", "relation": "contains", "condition": "Lamp"}
+      ]
+    }
+  },
+
+  "youth-bedroom-set": {
+    "smart_collection": {
+      "disjunctive": "false",
+      "title": "Youth Bedroom Set",
+      "rules": [
+        {"column" : "tag", "relation": "equals", "condition": "Youth Bedroom"},
+        {"column" : "tag", "relation":  "equals", "condition":  "Type_Youth Bedroom Set"}
+      ]
+    }
+  }
+}

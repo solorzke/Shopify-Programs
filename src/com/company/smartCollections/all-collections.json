@@ -1,0 +1,1269 @@
+{
+  "collections": [
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Home Office Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Desk",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Desk Chair",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Bookcase",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "File Cabinet",
+            "column": "type",
+            "relation": "equals"
+          }
+        ],
+        "title": "Home Office"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Mattress",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Hybrid Mattress",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Innerspring Mattress",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Memory Foam Mattress",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Mattress & Adjustable Base",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Adjustable Base",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Foundation",
+            "column": "type",
+            "relation": "equals"
+          }
+        ],
+        "title": "Mattress"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Entertainment Center",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "TV Stand",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Fireplace",
+            "column": "type",
+            "relation": "equals"
+          }
+        ],
+        "title": "Entertainment"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Wall Art",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Wall Decor",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Throw",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Basket",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Pouf",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Candle Holder",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Sculpture",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Lamp",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Lamp",
+            "column": "title",
+            "relation": "contains"
+          }
+        ],
+        "title": "Accessories"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Youth Bedroom",
+            "column": "tag",
+            "relation": "equals"
+          },
+          {
+            "condition": "Type_Youth Bedroom Set",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Youth Bedroom Set"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Lamp",
+            "column": "title",
+            "relation": "contains"
+          }
+        ],
+        "title": "Lamp"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Bedroom Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Youth Bedroom Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Bed",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Bunk Bed",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Nightstand",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Dresser",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Dresser & Mirror",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Chest",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Mirror",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Vanity",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Vanity Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Vanity Stool",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Vanity Mirror",
+            "column": "type",
+            "relation": "equals"
+          }
+        ],
+        "title": "Bedroom"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Outdoor",
+            "column": "title",
+            "relation": "contains"
+          }
+        ],
+        "title": "Outdoor"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Mattress Type_Memory Foam Mattress",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Memory Foam Mattress"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Dining Room Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Dining Table",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Dining Chair",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Dining Chair Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Barstool",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Barstool Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Barstools",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Buffet",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Server",
+            "column": "type",
+            "relation": "equals"
+          }
+        ],
+        "title": "Dining Room"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Mattress Type_Innerspring Mattress",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Innerspring Mattress"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Living Room Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Sofa",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Loveseat",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Sectional",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Sleeper",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Recliner",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Ottoman",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Sofa Table",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "End Table",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "Cocktail Table",
+            "column": "type",
+            "relation": "equals"
+          }
+        ],
+        "title": "Living Room"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "true",
+        "rules": [
+          {
+            "condition": "Mattress Type_Hybrid Mattress",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Hybrid Mattress"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Living Room Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Living Room Set In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Sofa",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Sofa In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Loveseat",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Loveseat In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Sectional",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Sectional In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Recliner",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Recliner In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Sleeper",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Sleeper In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Ottoman",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Ottoman In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "End Table",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "End Table In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Sofa Table",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Sofa Table In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Cocktail Table",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Cocktail Table In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Bedroom Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Bedroom Set In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Youth Bedroom Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Youth Bedroom Set In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Bed",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Bed In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Bunk Bed",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Bunk Bed In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Nightstand",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Nightstand In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Dresser",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Dresser In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Dresser & Mirror",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Dresser & Mirror In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Chest",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Chest In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Mirror",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Mirror In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Vanity",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Vanity In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Dining Room Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Dining Room Set In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Dining Table",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Dining Table In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Dining Chair",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Dining Chair In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Dining Chair Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Dining Chair Set In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Bar Stool",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Bar Stool In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Bar Stool Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Bar Stool Set In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Buffet",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Buffet In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Server",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Server In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Mattress",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Mattress In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Mattress & Adjustable Base",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Mattress & Adjustable Base In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Adjustable Base",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Adjustable Base In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Foundation",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Foundation In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Home Office Set",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Home Office Set In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Desk",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Desk In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Desk Chair",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Desk Chair In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Bookcase",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Bookcase In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "File Cabinet",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "File Cabinet In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Entertainment Center",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Entertainment Center In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "TV Stand",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "TV Stand In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Wall Art",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Wall Art In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Wall Decor",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Wall Decor In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Throw",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Throw In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Basket",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Basket In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Pouf",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Pouf In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Sculpture",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Sculpture In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Lamp",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Lamp In Stock"
+      }
+    },
+    {
+      "smart_collection": {
+        "disjunctive": "false",
+        "rules": [
+          {
+            "condition": "Candle Holder",
+            "column": "type",
+            "relation": "equals"
+          },
+          {
+            "condition": "availability_in-stock",
+            "column": "tag",
+            "relation": "equals"
+          }
+        ],
+        "title": "Candle Holder In Stock"
+      }
+    }
+  ]
+}
